@@ -41,7 +41,7 @@ div.links{
         position: absolute;
         top: 300px;
         left: -120px;
-        transition: width 2s;
+        
         cursor: pointer;
         border-radius: 8px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -49,6 +49,7 @@ div.links{
     .button:hover {
         width: 350px;
         background-color: #111;
+        transition: width 2s;
         
       }
 p{
